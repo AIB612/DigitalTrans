@@ -1,52 +1,54 @@
-# 📊 订单分析 | Order Analytics
+# 📊 Order Analytics
 
-> By SherryAGI | 电商订单全流程数据分析
-
----
-
-## 📚 模块目录
-
-| 模块 | 内容 | 难度 |
-|------|------|------|
-| [01-requirements](./01-requirements/) | 需求分析 | ⭐ |
-| [02-preprocessing](./02-preprocessing/) | 数据预处理 | ⭐⭐ |
-| [03-delivery](./03-delivery/) | 配送服务分析 | ⭐⭐⭐ |
-| [04-regional](./04-regional/) | 区域潜力分析 | ⭐⭐⭐ |
-| [05-quality](./05-quality/) | 商品质量分析 | ⭐⭐⭐ |
+> By SherryAGI | E-commerce Order Data Analysis
 
 ---
 
-## 🎯 业务问题
+## 📚 Modules
 
-本模块解决三个核心问题：
-
-1. **配送服务是否存在问题？** → 哪条线路时效差
-2. **是否存在潜力销售区域？** → 哪里还有市场空间
-3. **商品是否存在质量问题？** → 哪个产品退货多
+| Module | Content | Difficulty |
+|--------|---------|------------|
+| [01-requirements](./01-requirements/) | Requirements Analysis | ⭐ |
+| [02-preprocessing](./02-preprocessing/) | Data Preprocessing | ⭐⭐ |
+| [03-delivery](./03-delivery/) | Delivery Service Analysis | ⭐⭐⭐ |
+| [04-regional](./04-regional/) | Regional Potential Analysis | ⭐⭐⭐ |
+| [05-quality](./05-quality/) | Product Quality Analysis | ⭐⭐⭐ |
 
 ---
 
-## 📖 学习流程
+## 🎯 Business Questions
+
+1. **Are there delivery service issues?** → Which routes have delays
+2. **Are there untapped sales regions?** → Where is market potential
+3. **Are there product quality issues?** → Which products have high returns
+
+---
+
+## 📖 Analysis Flow
 
 ```
-01-需求分析 → 明确业务目标
+01-Requirements → Define business goals
       ↓
-02-数据预处理 → 清洗、去重、异常值
+02-Preprocessing → Clean, dedupe, handle outliers
       ↓
 ┌─────┼─────┐
 ↓     ↓     ↓
-配送  区域  质量
-分析  分析  分析
+Delivery  Regional  Quality
+Analysis  Analysis  Analysis
       ↓
-   综合决策
+   Decision Making
 ```
 
 ---
 
-## 🔑 核心结论示例
+## 🔑 Key Findings
 
-| 发现 | 建议 |
-|------|------|
-| 货品4→西北 时效差 | 优化物流线路 |
-| 货品2→华东 有潜力 | 加大投入 |
-| 货品1、2、4 退货高 | 加强质检 |
+| Finding | Recommendation |
+|---------|----------------|
+| Product 4 → Northwest: slow delivery | Optimize logistics route |
+| Product 2 → East China: high potential | Increase investment |
+| Products 1, 2, 4: quality issues | Strengthen QC |
+
+---
+
+**By SherryAGI** | [DigitalTransformationAI](https://github.com/AIB612/DigitalTransformationAI)
