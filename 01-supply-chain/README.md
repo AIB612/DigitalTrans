@@ -1,59 +1,63 @@
-# 📦 供应链管理 | Supply Chain Management
+# 📦 Supply Chain Management
 
-> By SherryAGI | Python 供应链数据分析与优化
-
----
-
-## 📚 模块目录
-
-| 模块 | 内容 | 难度 |
-|------|------|------|
-| [02-basics](./02-basics/) | Python 基础 | ⭐ |
-| [03-manipulation](./03-manipulation/) | 数据处理 Pandas | ⭐⭐ |
-| [04-visualization](./04-visualization/) | 数据可视化 | ⭐⭐ |
-| [05-clustering](./05-clustering/) | 客户聚类分析 | ⭐⭐⭐ |
-| [06-supplier](./06-supplier/) | 供应商选择与定价 | ⭐⭐⭐ |
-| [07-inventory](./07-inventory/) | 库存优化 | ⭐⭐⭐⭐ |
-| [08-forecasting](./08-forecasting/) | 需求预测 | ⭐⭐⭐⭐ |
-| [09-logistics](./09-logistics/) | 物流路径优化 | ⭐⭐⭐⭐ |
+> By SherryAGI | Python Supply Chain Data Analysis & Optimization
 
 ---
 
-## 🎯 学习目标
+## 📚 Module Directory
 
-完成本模块后，你将掌握：
-
-- ✅ Python 数据分析基础
-- ✅ 客户分群与 RFM 分析
-- ✅ 供应商评估与选择
-- ✅ 库存优化（线性规划）
-- ✅ 时间序列预测（ARIMA）
-- ✅ 物流路径优化（TSP/VRP）
+| Module | Content | Difficulty |
+|--------|---------|------------|
+| [02-basics](./02-basics/) | Python Basics | ⭐ |
+| [03-manipulation](./03-manipulation/) | Data Processing with Pandas | ⭐⭐ |
+| [04-visualization](./04-visualization/) | Data Visualization | ⭐⭐ |
+| [05-clustering](./05-clustering/) | Customer Clustering Analysis | ⭐⭐⭐ |
+| [06-supplier](./06-supplier/) | Supplier Selection & Pricing | ⭐⭐⭐ |
+| [07-inventory](./07-inventory/) | Inventory Optimization | ⭐⭐⭐⭐ |
+| [08-forecasting](./08-forecasting/) | Demand Forecasting | ⭐⭐⭐⭐ |
+| [09-logistics](./09-logistics/) | Logistics Route Optimization | ⭐⭐⭐⭐ |
 
 ---
 
-## 🛠️ 技术栈
+## 🎯 Learning Objectives
+
+After completing this module, you will master:
+
+- ✅ Python data analysis fundamentals
+- ✅ Customer segmentation & RFM analysis
+- ✅ Supplier evaluation & selection
+- ✅ Inventory optimization (Linear Programming)
+- ✅ Time series forecasting (ARIMA)
+- ✅ Logistics route optimization (TSP/VRP)
+
+---
+
+## 🛠️ Tech Stack
 
 ```python
-pandas, numpy          # 数据处理
-matplotlib, seaborn    # 可视化
-scikit-learn          # 机器学习
-statsmodels           # 时间序列
-PuLP                  # 线性规划优化
+pandas, numpy          # Data processing
+matplotlib, seaborn    # Visualization
+scikit-learn          # Machine learning
+statsmodels           # Time series
+PuLP                  # Linear programming optimization
 ```
 
 ---
 
-## 📖 推荐学习顺序
+## 📖 Recommended Learning Path
 
 ```
 02-basics → 03-manipulation → 04-visualization
                     ↓
-            05-clustering (客户分析)
+            05-clustering (Customer Analysis)
                     ↓
     ┌───────────────┼───────────────┐
     ↓               ↓               ↓
 06-supplier    07-inventory    08-forecasting
                     ↓
-            09-logistics (综合应用)
+            09-logistics (Comprehensive Application)
 ```
+
+---
+
+**By SherryAGI** | [DigitalTransformationAI](https://github.com/AIB612/DigitalTransformationAI)

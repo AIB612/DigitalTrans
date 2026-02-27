@@ -1,130 +1,131 @@
 # 🚀 DigitalTransformationAI
 
-**数字化转型全生命周期管理 | Digital Transformation Lifecycle**
+**Digital Transformation Lifecycle Management**
 
-> By SherryAGI | 从数据到决策，构建智能供应链
+> By SherryAGI | From Data to Decision, Building Intelligent Supply Chains
 
 ---
 
-## 📋 数字化转型生命周期 | Lifecycle Overview
+## 📋 Digital Transformation Lifecycle
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    数字化转型全景图                               │
+│                Digital Transformation Overview                   │
 ├─────────────────────────────────────────────────────────────────┤
-│  1. 数据采集    →  2. 数据清洗    →  3. 数据分析                  │
-│       ↓                 ↓                 ↓                     │
-│  4. 可视化      →  5. 预测建模    →  6. 优化决策                  │
-│       ↓                 ↓                 ↓                     │
-│  7. 自动化      →  8. 持续监控    →  9. 迭代优化                  │
+│  1. Data Collection  →  2. Data Cleaning  →  3. Data Analysis   │
+│         ↓                     ↓                    ↓            │
+│  4. Visualization    →  5. Predictive     →  6. Decision        │
+│                           Modeling            Optimization       │
+│         ↓                     ↓                    ↓            │
+│  7. Automation       →  8. Monitoring     →  9. Iteration       │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📁 项目结构
+## 📁 Project Structure
 
-| 模块 | 描述 | 链接 |
-|------|------|------|
-| **01-供应链管理** | 供应链数据分析与优化 | [→ 进入](./01-supply-chain/) |
-| **02-订单分析** | 电商订单全流程分析 | [→ 进入](./02-order-analysis/) |
-| **03-客户分析** | 客户生命周期价值 CLV | [→ 进入](./03-customer-analytics/) |
-| **04-知识管理** | 企业 RAG 知识库 | [→ 进入](./04-knowledge-management/) |
-
----
-
-## 🎯 应用场景矩阵
-
-### 供应链管理 Supply Chain
-
-| 场景 | 技术 | 文档 |
-|------|------|------|
-| 📊 客户分群 | K-means, RFM | [客户聚类分析](./01-supply-chain/05-clustering/) |
-| 🏭 供应商选择 | 多准则决策 | [供应商评估](./01-supply-chain/06-supplier/) |
-| 📦 库存优化 | 线性规划 PuLP | [库存管理](./01-supply-chain/07-inventory/) |
-| 📈 需求预测 | ARIMA, 时间序列 | [需求预测](./01-supply-chain/08-forecasting/) |
-| 🚚 物流优化 | TSP, VRP | [路径优化](./01-supply-chain/09-logistics/) |
-
-### 订单分析 Order Analytics
-
-| 场景 | 技术 | 文档 |
-|------|------|------|
-| 🔍 需求分析 | 业务理解 | [需求定义](./02-order-analysis/01-requirements/) |
-| 🧹 数据清洗 | Pandas | [数据预处理](./02-order-analysis/02-preprocessing/) |
-| 🚛 配送分析 | 统计分析 | [配送服务](./02-order-analysis/03-delivery/) |
-| 🗺️ 区域分析 | 地理分析 | [区域潜力](./02-order-analysis/04-regional/) |
-| ✅ 质量分析 | 异常检测 | [商品质量](./02-order-analysis/05-quality/) |
-
-### 客户分析 Customer Analytics
-
-| 场景 | 技术 | 文档 |
-|------|------|------|
-| 👥 RFM 分群 | 客户细分 | [RFM 分析](./03-customer-analytics/01-rfm-analysis.ipynb) |
-| 💰 CLV 计算 | 生命周期价值 | [CLV 基础](./03-customer-analytics/02-clv-basic.ipynb) |
-| 🔮 购买预测 | BG/NBD 模型 | [购买预测](./03-customer-analytics/03-bgnbd-model.ipynb) |
-| 💵 消费预测 | Gamma-Gamma | [消费预测](./03-customer-analytics/04-gamma-gamma.ipynb) |
-
-### 知识管理 Knowledge Management (Wissensmanagement)
-
-| 场景 | 技术 | 文档 |
-|------|------|------|
-| 🧠 RAG 基础 | 检索增强生成 | [RAG 入门](./04-knowledge-management/01-rag-basics.ipynb) |
-| 📄 文档处理 | 分块策略 | [文档处理](./04-knowledge-management/02-document-processing.ipynb) |
-| 🔍 向量检索 | 语义搜索 | [向量检索](./04-knowledge-management/03-vector-search.ipynb) |
-| 🏢 企业知识库 | 完整系统 | [知识库搭建](./04-knowledge-management/04-enterprise-kb.ipynb) |
+| Module | Description | Link |
+|--------|-------------|------|
+| **01-Supply Chain** | Supply chain data analysis & optimization | [→ Enter](./01-supply-chain/) |
+| **02-Order Analysis** | E-commerce order lifecycle analysis | [→ Enter](./02-order-analysis/) |
+| **03-Customer Analytics** | Customer Lifetime Value (CLV) | [→ Enter](./03-customer-analytics/) |
+| **04-Knowledge Management** | Enterprise RAG Knowledge Base | [→ Enter](./04-knowledge-management/) |
 
 ---
 
-## 🛠️ 技术栈
+## 🎯 Use Case Matrix
+
+### Supply Chain Management
+
+| Use Case | Technology | Docs |
+|----------|------------|------|
+| 📊 Customer Segmentation | K-means, RFM | [Clustering Analysis](./01-supply-chain/05-clustering/) |
+| 🏭 Supplier Selection | Multi-criteria Decision | [Supplier Evaluation](./01-supply-chain/06-supplier/) |
+| 📦 Inventory Optimization | Linear Programming PuLP | [Inventory Management](./01-supply-chain/07-inventory/) |
+| 📈 Demand Forecasting | ARIMA, Time Series | [Forecasting](./01-supply-chain/08-forecasting/) |
+| 🚚 Logistics Optimization | TSP, VRP | [Route Optimization](./01-supply-chain/09-logistics/) |
+
+### Order Analytics
+
+| Use Case | Technology | Docs |
+|----------|------------|------|
+| 🔍 Requirements Analysis | Business Understanding | [Requirements](./02-order-analysis/01-requirements/) |
+| 🧹 Data Cleaning | Pandas | [Preprocessing](./02-order-analysis/02-preprocessing/) |
+| 🚛 Delivery Analysis | Statistical Analysis | [Delivery Service](./02-order-analysis/03-delivery/) |
+| 🗺️ Regional Analysis | Geographic Analysis | [Regional Potential](./02-order-analysis/04-regional/) |
+| ✅ Quality Analysis | Anomaly Detection | [Product Quality](./02-order-analysis/05-quality/) |
+
+### Customer Analytics
+
+| Use Case | Technology | Docs |
+|----------|------------|------|
+| 👥 RFM Segmentation | Customer Segmentation | [RFM Analysis](./03-customer-analytics/01-rfm-analysis.ipynb) |
+| 💰 CLV Calculation | Lifetime Value | [CLV Basics](./03-customer-analytics/02-clv-basic.ipynb) |
+| 🔮 Purchase Prediction | BG/NBD Model | [Purchase Prediction](./03-customer-analytics/03-bgnbd-model.ipynb) |
+| 💵 Spend Prediction | Gamma-Gamma | [Spend Prediction](./03-customer-analytics/04-gamma-gamma.ipynb) |
+
+### Knowledge Management
+
+| Use Case | Technology | Docs |
+|----------|------------|------|
+| 🧠 RAG Basics | Retrieval-Augmented Generation | [RAG Intro](./04-knowledge-management/basics/01-rag-basics.ipynb) |
+| 📄 Document Processing | Chunking Strategies | [Doc Processing](./04-knowledge-management/basics/02-document-processing.ipynb) |
+| 🔍 Vector Search | Semantic Search | [Vector Search](./04-knowledge-management/basics/03-vector-search.ipynb) |
+| 🏢 Enterprise KB | Complete System | [KB Setup](./04-knowledge-management/basics/04-enterprise-kb.ipynb) |
+
+---
+
+## 🛠️ Tech Stack
 
 ```python
-# 数据处理
+# Data Processing
 pandas, numpy, scipy
 
-# 可视化
+# Visualization
 matplotlib, seaborn, plotly
 
-# 机器学习
+# Machine Learning
 scikit-learn, statsmodels
 
-# 优化
+# Optimization
 PuLP, OR-Tools
 
-# 时间序列
+# Time Series
 ARIMA, Prophet
 ```
 
 ---
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
 ```bash
-# 1. 克隆仓库
+# 1. Clone repo
 git clone https://github.com/AIB612/DigitalTransformationAI.git
-cd DigitalTrans
+cd DigitalTransformationAI
 
-# 2. 安装依赖
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. 选择模块开始学习
+# 3. Start learning
 jupyter notebook
 ```
 
 ---
 
-## 📖 学习路径
+## 📖 Learning Path
 
-### 入门路径 (2周)
-1. [Python 基础](./01-supply-chain/02-basics/) → 2天
-2. [数据处理](./01-supply-chain/03-manipulation/) → 2天
-3. [数据可视化](./01-supply-chain/04-visualization/) → 2天
-4. [订单分析实战](./02-order-analysis/) → 1周
+### Beginner (2 weeks)
+1. [Python Basics](./01-supply-chain/02-basics/) → 2 days
+2. [Data Manipulation](./01-supply-chain/03-manipulation/) → 2 days
+3. [Data Visualization](./01-supply-chain/04-visualization/) → 2 days
+4. [Order Analysis Project](./02-order-analysis/) → 1 week
 
-### 进阶路径 (4周)
-1. [客户聚类](./01-supply-chain/05-clustering/) → 1周
-2. [需求预测](./01-supply-chain/08-forecasting/) → 1周
-3. [库存优化](./01-supply-chain/07-inventory/) → 1周
-4. [物流优化](./01-supply-chain/09-logistics/) → 1周
+### Advanced (4 weeks)
+1. [Customer Clustering](./01-supply-chain/05-clustering/) → 1 week
+2. [Demand Forecasting](./01-supply-chain/08-forecasting/) → 1 week
+3. [Inventory Optimization](./01-supply-chain/07-inventory/) → 1 week
+4. [Logistics Optimization](./01-supply-chain/09-logistics/) → 1 week
 
 ---
 
@@ -138,6 +139,6 @@ MIT License - SherryAGI
 
 **⭐ Star this repo if it helps you!**
 
-*打造真正能用的数字化工具*
+*Building practical digital transformation tools*
 
 </div>
