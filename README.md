@@ -100,32 +100,16 @@ ARIMA, Prophet
 ## 🚀 Quick Start
 
 ```bash
-# 1. Clone repo
+# Clone repo
 git clone https://github.com/AIB612/DigitalTransformationAI.git
 cd DigitalTransformationAI
 
-# 2. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 3. Start learning
+# Start
 jupyter notebook
 ```
-
----
-
-## 📖 Learning Path
-
-### Beginner (2 weeks)
-1. [Python Basics](./01-supply-chain/02-basics/) → 2 days
-2. [Data Manipulation](./01-supply-chain/03-manipulation/) → 2 days
-3. [Data Visualization](./01-supply-chain/04-visualization/) → 2 days
-4. [Order Analysis Project](./02-order-analysis/) → 1 week
-
-### Advanced (4 weeks)
-1. [Customer Clustering](./01-supply-chain/05-clustering/) → 1 week
-2. [Demand Forecasting](./01-supply-chain/08-forecasting/) → 1 week
-3. [Inventory Optimization](./01-supply-chain/07-inventory/) → 1 week
-4. [Logistics Optimization](./01-supply-chain/09-logistics/) → 1 week
 
 ---
 
@@ -138,7 +122,5 @@ MIT License - SherryAGI
 <div align="center">
 
 **⭐ Star this repo if it helps you!**
-
-*Building practical digital transformation tools*
 
 </div>

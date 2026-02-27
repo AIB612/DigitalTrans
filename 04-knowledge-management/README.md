@@ -31,16 +31,6 @@ Deep dive into RAG techniques (based on LangChain)
 
 ---
 
-## 🎯 Learning Path
-
-```
-Basics (1 week)                    Advanced (2 weeks)
-─────────────                      ─────────────
-basics/01 → 02 → 03 → 04    →     advanced/1-4 → 5-9 → 10-18
-```
-
----
-
 ## 🛠️ Recommended Open Source Tools
 
 | Tool | Features | Link |
@@ -48,14 +38,6 @@ basics/01 → 02 → 03 → 04    →     advanced/1-4 → 5-9 → 10-18
 | **RAGFlow** | Professional RAG Engine | github.com/infiniflow/ragflow |
 | **Dify** | Low-code AI Platform | github.com/langgenius/dify |
 | **AnythingLLM** | All-in-one Desktop App | github.com/Mintplex-Labs/anything-llm |
-
----
-
-## 🇨🇭 Swiss Compliance Deployment
-
-- Data Residency: Azure Switzerland North / Swisscom Cloud
-- Compliance: FADP, GDPR, SOC2
-- Encryption: AES-256
 
 ---
 
